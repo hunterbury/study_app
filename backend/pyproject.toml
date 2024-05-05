@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "study_app_hunterbury"
+version = "0.0.1"
+authors = [
+  { name="Hunter Bury", email="huntersbury1@gmail.com.com" },
+]
+description = "An AI-powered app for note taking and studying"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
