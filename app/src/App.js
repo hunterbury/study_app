@@ -5,8 +5,8 @@ import Note from './Components/Note';
 function App() {
   return (
     <div className="App">
-      <Note />
       <NoteList />
+      <Note />
     </div>
   );
 }
